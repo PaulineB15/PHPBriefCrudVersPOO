@@ -1,5 +1,10 @@
 <?php
 
+/* Classe Database
+* Pour se connecter à la BDD
+ * Simplification de l'utilisation de PDO
+ * Bien gérer les ressources (pattern Singleton)
+ * */
 class Database {
 
     // Propriété privée accessible que depuis la classe Database
