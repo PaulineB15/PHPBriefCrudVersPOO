@@ -18,9 +18,9 @@ $produitUpdate = $gestionProduits->trouver($id);
 
 if ($_SERVER['REQUEST_METHOD'] === "POST"){
 
-$nom = htmlspecialchars(trim($_POST['nom']));
-$prix = htmlspecialchars(trim($_POST['prix']));
-$stock = htmlspecialchars(trim($_POST['stock']));
+$nom = (trim($_POST['nom']));
+$prix = (trim($_POST['prix']));
+$stock = (trim($_POST['stock']));
 
 // Utilise la méthode modifier un produit
 $gestionProduits->modifier($id, $nom, $prix, $stock);

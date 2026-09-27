@@ -10,6 +10,7 @@ $maDb = new Database();
 // Instancie le gestionnaire de produits en lui injectant la connexion
 $gestionProduits = new Produit($maDb->getPDO());
 
+// Récupére l'identifiant du produit cliqué dans l'URL (GET)
 $id = $_GET['id'];
 
 // Utilise la méthode supprimer() pour effacer l'article de la BDD

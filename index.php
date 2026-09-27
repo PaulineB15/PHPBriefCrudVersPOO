@@ -1,5 +1,4 @@
 <?php
-// --- 1. PARTIE LOGIQUE (PHP) ---
 
 // Importation des classes produits + database
 require_once 'database.php';
